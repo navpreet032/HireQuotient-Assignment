@@ -1,9 +1,15 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # HireQuotient-Assignment
+
+## Getting Started:
+- `git clone https://github.com/navpreet032/HireQuotient-Assignment.git`
+- `cd HireQuotient-Assignment`
+- `npm install`
+- `npm run dev`
+
+## File structure:
+`src/App.jsx`
+  - controls data fetching, manages loading statuses, and renders the application's main content, which includes the footer section and holdings table.
+`src/DataTable.jsx`
+  - arranges the data and makes table out of the given data
+`src/main.jsx`
+  - initializes a React root and renders the <App /> component into the DOM 
