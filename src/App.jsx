@@ -6,7 +6,7 @@ import './App.css'
 import DataTable from './DataTable';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-const HoldingsTable = () => {
+const App = () => {
   const [holdings, setHoldings] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
 
@@ -36,7 +36,7 @@ const HoldingsTable = () => {
   }
   return (
     <div>
-      
+
       <div className='maintable'>
         <h1 style={{ color: 'black' }}>Holdings Table</h1>
         <DataTable data={holdings} />
@@ -57,4 +57,4 @@ const HoldingsTable = () => {
   );
 };
 
-export default HoldingsTable;
+export default App;
