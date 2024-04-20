@@ -1,0 +1,40 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+}
+
+.maintable {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(116, 116, 116, 0.135);
+  border-radius: 8px;
+  border: 1px black solid;
+  color: rgba(152, 195, 233, 0.751);
+  padding: auto;
+
+}
+
+.nestedtables {
+  background-color: rgba(145, 145, 145, 0.016);
+  max-width: 70vw;
+  border: 1px black solid;
+  border-bottom: 3px gray solid;
+  border-radius: 14px;
+  left: 4vw;
+  position: relative;
+
+}
+.footer {
+  
+  left: 80%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    position: relative;
+    width: 250px;
+
+}
